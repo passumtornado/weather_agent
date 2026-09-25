@@ -1,0 +1,19 @@
+"""Deterministic math tools used by MCP server """
+
+def add(a:float, b:float) -> float:
+    """Returns the sum of two numbers"""
+    return a + b
+
+def subtract(a:float, b:float) -> float:
+    """Returns the difference of two numbers"""
+    return a - b
+
+def multiply(a:float, b:float) -> float:
+    """Returns the product of two numbers"""
+    return a * b
+def divide(a:float, b:float) -> float:
+    """Returns the quotient of two numbers"""
+    if b == 0:
+       raise ValueError('Division by zero')
+    return a / b
+
