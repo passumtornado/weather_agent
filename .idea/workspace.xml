@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f831e4f5-b1ec-4b0c-984f-9911bf84dba2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mcp_agent/agent/agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mcp_agent/agent/mcp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mcp_agent/agent/prompt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mcp_agent/agent/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mcp_agent/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mcp_agent/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f831e4f5-b1ec-4b0c-984f-9911bf84dba2" name="Changes" comment="Full implementation of weather-math agent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mcp_agent/servers/math/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mcp_agent/servers/math/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mcp_agent/agent/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mcp_agent/agent/agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mcp_agent/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mcp_agent/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mcp_agent/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mcp_agent/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +74,23 @@
       <option name="presentableId" value="Default" />
       <updated>1790258222414</updated>
     </task>
+    <task id="LOCAL-00001" summary="Full implementation of weather-math agent">
+      <option name="closed" value="true" />
+      <created>1790518089955</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1790518089955</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Full implementation of weather-math agent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full implementation of weather-math agent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
