@@ -24,3 +24,10 @@ def multiply(a:float, b:float) -> float:
 def divide(a:float, b:float) -> float:
     """Divide two numbers"""
     return tools.divide(a,b)
+
+if __name__ == "__main__":
+    mcp.run(
+        transport="streamable-http",
+        # host="127.0.0.1",
+        port=8001,
+    )

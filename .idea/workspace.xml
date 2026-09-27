@@ -5,29 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f831e4f5-b1ec-4b0c-984f-9911bf84dba2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonproject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/test_math_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/test_weather_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/test_weather_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mcp_agent/clients/mcp_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mcp_agent/servers/math/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mcp_agent/servers/math/tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mcp_agent/servers/weather/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mcp_agent/servers/weather/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mcp_agent/servers/weather/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mcp_agent/servers/weather/tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/integration/test_math_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/integration/test_weather_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unit/test_math_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mcp_agent/agent/agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mcp_agent/agent/mcp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mcp_agent/agent/prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mcp_agent/agent/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mcp_agent/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mcp_agent/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mcp_agent/servers/math/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mcp_agent/servers/math/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +33,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6,
@@ -63,13 +56,18 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mcp_agent" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
